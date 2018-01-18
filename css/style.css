@@ -180,6 +180,10 @@ h1 .titulo {
   height:700px;
 }
 
+.medio_espacio{
+  height:200px;
+}
+
 .img_titulo{
   width: 28%;
   transition: transform 1s;
@@ -252,4 +256,57 @@ h1 .titulo {
 
 .empleo li{
   font-size:0.8em;
+}
+
+
+.gallerycontainer{
+position: relative;
+margin:0 10%;
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: none;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: white;
+font-size:1.1em;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 0;
+left: 230px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+
+.descripcion{
+  margin:0 10%;
+color:white;
+font-size: 1.2em;
+}
+
+.descripcion li{
+list-style:none;  
 }
