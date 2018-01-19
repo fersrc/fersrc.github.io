@@ -260,53 +260,59 @@ h1 .titulo {
 
 
 .gallerycontainer{
-position: relative;
-margin:0 10%;
+  position: relative;
+  margin:0 10%;
 }
 
 .thumbnail img{
-border: 1px solid white;
-margin: 0 5px 5px 0;
+  border: 1px solid white;
+  margin: 0 5px 5px 0;
 }
 
 .thumbnail:hover{
-background-color: transparent;
+  background-color: transparent;
 }
 
 .thumbnail:hover img{
-border: 1px solid blue;
+  border: 1px solid blue;
 }
 
 .thumbnail span{ /*CSS for enlarged image*/
-position: absolute;
-background-color: none;
-padding: 5px;
-left: -1000px;
-border: 1px dashed gray;
-visibility: hidden;
-color: white;
-font-size:1.1em;
-text-decoration: none;
+  position: absolute;
+  background-color: #3A6073; /* W3C */;
+  padding: 5px;
+  left: -1000px;
+  border: 1px dashed gray;
+  visibility: hidden;
+  color: white;
+  font-size:1.1em;
+  text-decoration: none;
 }
 
 .thumbnail span img{ /*CSS for enlarged image*/
-border-width: 0;
-padding: 2px;
+  border-width: 0;
+  padding: 2px;
 }
 
 .thumbnail:hover span{ /*CSS for enlarged image*/
-visibility: visible;
-top: 0;
-left: 230px; /*position where enlarged image should offset horizontally */
-z-index: 50;
+  visibility: visible;
+  top: 0;
+  left: 350px; /*position where enlarged image should offset horizontally */
+  z-index: 50;
+  width: 600px;
+}
+
+.thumbnail:hover span img{ /*CSS for enlarged image*/
+  width: 600px;
+ max-height: 400px;
 }
 
 .descripcion{
   margin:0 10%;
-color:white;
-font-size: 1.2em;
+  color:white;
+  font-size: 1.2em;
 }
 
 .descripcion li{
-list-style:none;  
+  list-style:none;
 }
