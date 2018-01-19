@@ -177,11 +177,11 @@ h1 .titulo {
 }
 
 .espacio{
-  height:700px;
+  height:500px;
 }
 
 .medio_espacio{
-  height:200px;
+  height:150px;
 }
 
 .img_titulo{
@@ -315,4 +315,15 @@ h1 .titulo {
 
 .descripcion li{
   list-style:none;
+}
+.descripcion a:link {
+    text-decoration: none;
+    color:inherit;
+    font:inherit;
+}
+
+.descripcion a:visited  {
+    text-decoration: none;
+    color:inherit;
+    font:inherit;
 }
