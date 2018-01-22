@@ -304,7 +304,7 @@ h1 .titulo {
 
 .thumbnail:hover span img{ /*CSS for enlarged image*/
   width: 600px;
- max-height: 400px;
+  max-height: 400px;
 }
 
 .descripcion{
@@ -317,13 +317,13 @@ h1 .titulo {
   list-style:none;
 }
 .descripcion a:link {
-    text-decoration: none;
-    color:inherit;
-    font:inherit;
+  text-decoration: none;
+  color:inherit;
+  font:inherit;
 }
 
 .descripcion a:visited  {
-    text-decoration: none;
-    color:inherit;
-    font:inherit;
+  text-decoration: none;
+  color:inherit;
+  font:inherit;
 }
